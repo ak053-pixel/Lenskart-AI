@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360">
+  <defs>
+    <!-- Realistic Acetate Shadow -->
+    <filter id="frameShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+    
+    <!-- Realistic Anti-Reflective Lens Glare -->
+    <linearGradient id="lensReflect" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32" />
+      <stop offset="25%" stop-color="#e0f2fe" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Acetate Material Gradient for 3D bevel sheen -->
+    <linearGradient id="blackAcetate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d3748" />
+      <stop offset="25%" stop-color="#1a202c" />
+      <stop offset="70%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- Metallic Rivet Gradient -->
+    <linearGradient id="metalRivet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#frameShadow)">
+    <!-- Temple Arms visible from front angle -->
+    <path d="M 95 105 L 15 90 C 5 88 0 95 0 100 C 0 105 10 108 20 110 L 95 118 Z" fill="#1a202c" opacity="0.95" />
+    <path d="M 905 105 L 985 90 C 995 88 1000 95 1000 100 C 1000 105 990 108 980 110 L 905 118 Z" fill="#1a202c" opacity="0.95" />
+
+    <!-- Main Acetate Frame Structure: Precise Hustlr Contour -->
+    <!-- Left Rim Outer: organic square with rounded bottom -->
+    <path d="
+      M 110,65
+      C 180,60 380,60 435,68
+      C 460,72 468,90 465,130
+      C 460,195 440,265 410,285
+      C 375,305 200,305 155,285
+      C 125,265 105,195 100,130
+      C 98,90 102,70 110,65 Z
+      
+      M 435,68
+      C 465,65 535,65 565,68
+      C 573,75 572,110 562,115
+      C 540,125 460,125 438,115
+      C 428,110 427,75 435,68 Z
+
+      M 890,65
+      C 820,60 620,60 565,68
+      C 540,72 532,90 535,130
+      C 540,195 560,265 590,285
+      C 625,305 800,305 845,285
+      C 875,265 895,195 900,130
+      C 902,90 898,70 890,65 Z
+    " fill="url(#blackAcetate)" />
+
+    <!-- Left Lens Cutout (Transparent with realistic reflection) -->
+    <path d="
+      M 132,85
+      C 195,80 370,80 415,86
+      C 436,89 442,105 440,138
+      C 435,190 418,248 392,266
+      C 365,282 205,282 170,266
+      C 142,248 128,190 124,138
+      C 122,105 125,89 132,85 Z
+    " fill="url(#lensReflect)" stroke="#090d16" stroke-width="3" />
+
+    <!-- Right Lens Cutout (Transparent with realistic reflection) -->
+    <path d="
+      M 868,85
+      C 805,80 630,80 585,86
+      C 564,89 558,105 560,138
+      C 565,190 582,248 608,266
+      C 635,282 795,282 830,266
+      C 858,248 872,190 876,138
+      C 878,105 875,89 868,85 Z
+    " fill="url(#lensReflect)" stroke="#090d16" stroke-width="3" />
+
+    <!-- Top Bevel Highlight Rim (giving realistic 3D acetate shine) -->
+    <path d="
+      M 112,68 C 200,63 360,63 430,70
+      M 570,70 C 640,63 800,63 888,68
+    " fill="none" stroke="#475569" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Keyhole / Saddle Nose Bridge Curve -->
+    <path d="M 436,112 C 465,95 535,95 564,112 C 550,130 450,130 436,112 Z" fill="#0f172a" opacity="0.4" />
+    <path d="M 435,70 C 470,62 530,62 565,70 C 540,82 460,82 435,70 Z" fill="#334155" opacity="0.3" />
+
+    <!-- Silver Rivet Studs on End Pieces -->
+    <ellipse cx="88" cy="80" rx="3.5" ry="2.2" fill="url(#metalRivet)" />
+    <ellipse cx="912" cy="80" rx="3.5" ry="2.2" fill="url(#metalRivet)" />
+
+    <!-- Silicone Nose Pads (Subtle behind bridge) -->
+    <ellipse cx="448" cy="175" rx="6" ry="14" fill="#ffffff" opacity="0.6" />
+    <ellipse cx="552" cy="175" rx="6" ry="14" fill="#ffffff" opacity="0.6" />
+  </g>
+</svg>

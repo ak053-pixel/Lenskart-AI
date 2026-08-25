@@ -1,0 +1,248 @@
+[
+  {
+    "id": "rayban_aviator_or_vertFlash",
+    "sku": "rayban_aviator_or_vertFlash",
+    "name": "Ray-Ban RB3025 Aviator Classic Gold & Green",
+    "brand": "Ray-Ban",
+    "shape": "aviator",
+    "frame_type": "Full Rim",
+    "size_category": "Wide",
+    "material": "Arista Gold Metal",
+    "price_inr": 7490,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#d4af37",
+    "rating": 4.9,
+    "reviews_count": 32400,
+    "target_face_shapes": [
+      "Square",
+      "Heart",
+      "Oval"
+    ],
+    "image": "/frames/frame_aviator_1.jpg",
+    "framePng": "/frames/frame_aviator_1.png",
+    "dimensions": {
+      "lens_width_mm": 58,
+      "bridge_width_mm": 14,
+      "temple_length_mm": 140,
+      "frame_width_mm": 140
+    },
+    "image_path": "/frames/frame_aviator_1.jpg",
+    "frame_path": "/frames/frame_aviator_1.png"
+  },
+  {
+    "id": "rayban_wayfarer_havane_vert",
+    "sku": "rayban_wayfarer_havane_vert",
+    "name": "Ray-Ban Original Wayfarer Havana Tortoise",
+    "brand": "Ray-Ban",
+    "shape": "wayfarer",
+    "frame_type": "Full Rim",
+    "size_category": "Medium",
+    "material": "Handmade Italian Acetate",
+    "price_inr": 6890,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#78350f",
+    "rating": 4.8,
+    "reviews_count": 28900,
+    "target_face_shapes": [
+      "Round",
+      "Oval",
+      "Heart"
+    ],
+    "image": "/frames/frame_wayfarer_2.jpg",
+    "framePng": "/frames/frame_wayfarer_2.png",
+    "dimensions": {
+      "lens_width_mm": 50,
+      "bridge_width_mm": 22,
+      "temple_length_mm": 150,
+      "frame_width_mm": 142
+    },
+    "image_path": "/frames/frame_wayfarer_2.jpg",
+    "frame_path": "/frames/frame_wayfarer_2.png"
+  },
+  {
+    "id": "rayban_wayfarer_classic_black",
+    "sku": "rayban_wayfarer_classic_black",
+    "name": "Ray-Ban Original Wayfarer Classic Black G-15",
+    "brand": "Ray-Ban",
+    "shape": "wayfarer",
+    "frame_type": "Full Rim",
+    "size_category": "Medium",
+    "material": "Polished Black Acetate",
+    "price_inr": 6890,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#0f172a",
+    "rating": 4.9,
+    "reviews_count": 35100,
+    "target_face_shapes": [
+      "Round",
+      "Oval",
+      "Heart"
+    ],
+    "image": "/frames/frame_wayfarer_3.jpg",
+    "framePng": "/frames/frame_wayfarer_3.png",
+    "dimensions": {
+      "lens_width_mm": 50,
+      "bridge_width_mm": 22,
+      "temple_length_mm": 150,
+      "frame_width_mm": 142
+    },
+    "image_path": "/frames/frame_wayfarer_3.jpg",
+    "frame_path": "/frames/frame_wayfarer_3.png"
+  },
+  {
+    "id": "rayban_clubmaster_noir_bleuGris",
+    "sku": "rayban_clubmaster_noir_bleuGris",
+    "name": "Ray-Ban Clubmaster Classic Black & Gold",
+    "brand": "Ray-Ban",
+    "shape": "clubmaster",
+    "frame_type": "Half Rim",
+    "size_category": "Medium",
+    "material": "Premium Acetate & Gold Wire",
+    "price_inr": 7290,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#0f172a",
+    "rating": 4.8,
+    "reviews_count": 24100,
+    "target_face_shapes": [
+      "Round",
+      "Oval",
+      "Heart"
+    ],
+    "image": "/frames/frame_clubmaster_5.jpg",
+    "framePng": "/frames/frame_clubmaster_5.png",
+    "dimensions": {
+      "lens_width_mm": 51,
+      "bridge_width_mm": 21,
+      "temple_length_mm": 145,
+      "frame_width_mm": 139
+    },
+    "image_path": "/frames/frame_clubmaster_5.jpg",
+    "frame_path": "/frames/frame_clubmaster_5.png"
+  },
+  {
+    "id": "rayban_justin_noir_bleuMirroir",
+    "sku": "rayban_justin_noir_bleuMirroir",
+    "name": "Ray-Ban Justin Matte Black Rubber",
+    "brand": "Ray-Ban",
+    "shape": "square",
+    "frame_type": "Full Rim",
+    "size_category": "Wide",
+    "material": "TR90 Rubberized Acetate",
+    "price_inr": 5990,
+    "category": "sunglasses",
+    "gender": "men",
+    "color": "#0f172a",
+    "rating": 4.8,
+    "reviews_count": 31200,
+    "target_face_shapes": [
+      "Round",
+      "Oval"
+    ],
+    "image": "/frames/frame_square_6.jpg",
+    "framePng": "/frames/frame_square_6.png",
+    "dimensions": {
+      "lens_width_mm": 55,
+      "bridge_width_mm": 16,
+      "temple_length_mm": 145,
+      "frame_width_mm": 144
+    },
+    "image_path": "/frames/frame_square_6.jpg",
+    "frame_path": "/frames/frame_square_6.png"
+  },
+  {
+    "id": "rayban_hexagonal_flat_gold",
+    "sku": "rayban_hexagonal_flat_gold",
+    "name": "Ray-Ban Hexagonal Flat Lenses Gold",
+    "brand": "Ray-Ban",
+    "shape": "geometric",
+    "frame_type": "Full Rim",
+    "size_category": "Medium",
+    "material": "Polished Gold Metal Wire",
+    "price_inr": 7490,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#d4af37",
+    "rating": 4.9,
+    "reviews_count": 16400,
+    "target_face_shapes": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "image": "/frames/frame_geometric_11.jpg",
+    "framePng": "/frames/frame_geometric_11.png",
+    "dimensions": {
+      "lens_width_mm": 51,
+      "bridge_width_mm": 21,
+      "temple_length_mm": 145,
+      "frame_width_mm": 137
+    },
+    "image_path": "/frames/frame_geometric_11.jpg",
+    "frame_path": "/frames/frame_geometric_11.png"
+  },
+  {
+    "id": "rayban_round_gun_vert",
+    "sku": "rayban_round_gun_vert",
+    "name": "Ray-Ban RB3447 Round Metal Gold G-15",
+    "brand": "Ray-Ban",
+    "shape": "round",
+    "frame_type": "Full Rim",
+    "size_category": "Medium",
+    "material": "Gold Titanium Wire",
+    "price_inr": 6990,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#d4af37",
+    "rating": 4.9,
+    "reviews_count": 19400,
+    "target_face_shapes": [
+      "Square",
+      "Rectangle",
+      "Diamond"
+    ],
+    "image": "/frames/frame_geometric_11.jpg",
+    "framePng": "/frames/frame_geometric_11.png",
+    "dimensions": {
+      "lens_width_mm": 50,
+      "bridge_width_mm": 21,
+      "temple_length_mm": 145,
+      "frame_width_mm": 135
+    },
+    "image_path": "/frames/frame_geometric_11.jpg",
+    "frame_path": "/frames/frame_geometric_11.png"
+  },
+  {
+    "id": "rayban_boyfriend_noir_marron_degrade",
+    "sku": "rayban_boyfriend_noir_marron_degrade",
+    "name": "Ray-Ban Boyfriend Bold Square Classic",
+    "brand": "Ray-Ban",
+    "shape": "square",
+    "frame_type": "Full Rim",
+    "size_category": "Extra Wide",
+    "material": "Handmade Acetate",
+    "price_inr": 6890,
+    "category": "sunglasses",
+    "gender": "unisex",
+    "color": "#0f172a",
+    "rating": 4.7,
+    "reviews_count": 11900,
+    "target_face_shapes": [
+      "Round",
+      "Oval"
+    ],
+    "image": "/frames/frame_square_6.jpg",
+    "framePng": "/frames/frame_square_6.png",
+    "dimensions": {
+      "lens_width_mm": 60,
+      "bridge_width_mm": 15,
+      "temple_length_mm": 145,
+      "frame_width_mm": 148
+    },
+    "image_path": "/frames/frame_square_6.jpg",
+    "frame_path": "/frames/frame_square_6.png"
+  }
+]

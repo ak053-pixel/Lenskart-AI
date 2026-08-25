@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👓</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Lenskart AI | Live AI Virtual Frame Try-On & Eyewear Store</title>
+    <meta name="description" content="Shop eyeglasses, sunglasses, and screen protection glasses with live AI 3D Virtual Frame Try-On, real-time face shape analysis, and custom lens surfacing." />
+    <!-- Tailwind CSS Script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              teal: {
+                50: '#f0fdfa',
+                100: '#ccfbf1',
+                400: '#2dd4bf',
+                500: '#00bac6',
+                600: '#0d9488',
+                700: '#0f766e',
+                950: '#042f2e',
+              }
+            }
+          }
+        }
+      }
+    <!-- Jeeliz 3D Glasses VTO Widget Script -->
+    <script src="/jeeliz/JeelizVTOWidget.js"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

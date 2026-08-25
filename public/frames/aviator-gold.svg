@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380">
+  <defs>
+    <filter id="aviatorShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+
+    <linearGradient id="goldFrame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="30%" stop-color="#d4af37" />
+      <stop offset="70%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+
+    <!-- Polarized Gradient Lens -->
+    <linearGradient id="polarizedLens" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.88" />
+      <stop offset="60%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.55" />
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#aviatorShadow)">
+    <!-- Top Brow Bar -->
+    <path d="M 410,75 L 590,75" stroke="url(#goldFrame)" stroke-width="7" stroke-linecap="round" />
+
+    <!-- Left Teardrop Lens -->
+    <path d="
+      M 120,80
+      L 410,80
+      C 440,80 450,110 445,180
+      C 435,280 300,340 240,335
+      C 150,330 105,250 100,180
+      C 95,110 105,80 120,80 Z
+    " fill="url(#polarizedLens)" stroke="url(#goldFrame)" stroke-width="8" />
+
+    <!-- Right Teardrop Lens -->
+    <path d="
+      M 880,80
+      L 590,80
+      C 560,80 550,110 555,180
+      C 565,280 700,340 760,335
+      C 850,330 895,250 900,180
+      C 905,110 895,80 880,80 Z
+    " fill="url(#polarizedLens)" stroke="url(#goldFrame)" stroke-width="8" />
+
+    <!-- Bridge Arch -->
+    <path d="M 420,115 Q 500,95 580,115" fill="none" stroke="url(#goldFrame)" stroke-width="6.5" stroke-linecap="round" />
+
+    <!-- Temples -->
+    <path d="M 100,120 L 10,105" stroke="url(#goldFrame)" stroke-width="7" stroke-linecap="round" />
+    <path d="M 900,120 L 990,105" stroke="url(#goldFrame)" stroke-width="7" stroke-linecap="round" />
+
+    <!-- Silicone Nose Pads -->
+    <ellipse cx="440" cy="180" rx="5" ry="14" fill="#ffffff" opacity="0.7" stroke="#d4af37" stroke-width="1" />
+    <ellipse cx="560" cy="180" rx="5" ry="14" fill="#ffffff" opacity="0.7" stroke="#d4af37" stroke-width="1" />
+  </g>
+</svg>
